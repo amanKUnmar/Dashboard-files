@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    font-family: "Poppins",sans-serif;
+}
+#teacher{
+    height: 8vh;
+    width:8vh;
+}
+
+
+#homework{
+    display: flex;
+    flex-direction: row;
+}
+
+#homework #teacherdatetime{
+    display: flex;
+    flex-direction: column;   
+}
+#homework #teacherdatetime h3{
+    margin-bottom: -1vw;
+}
+#homework #teacherdatetime p{
+    margin-bottom: -1vw;    
+}
+#homework #teacherdatetime p{
+    margin-bottom: -1vw;
+}
+
+
+.homeworktiles{
+    display: inline-block;
+    width: fit-content;
+    height: fit-content;
+    margin-right: 2vw;
+    text-align: center;
+    background-color: #0eb582;
+    color: black;
+    padding: 2vw;
+    border-radius: 20%;
+    box-shadow: 0 2vw 5vw rgba(0, 0, 0, 0.3);
+}
+#Homeworktill7days{
+    grid-template-columns: auto auto auto auto auto;
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    overflow-y: hidden;
+    scrollbar-color: rebeccapurple;
+    scrollbar-width: thin;
+}
+
+table, th, td {
+    border:1px solid black;
+  }
+  td{
+    width: 20vw;
+    height: 5vw;
+    justify-content: center;
+    text-align: center;
+  }
