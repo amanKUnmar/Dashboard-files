@@ -8,7 +8,6 @@
 body{
     background-color:white;
 }
-
 #sidebar-content{
     border-radius: 2vw;
     position: absolute;
@@ -23,7 +22,7 @@ body{
     display: block;
     margin-top: auto;
     margin-bottom: auto;
-
+    
 }
 
 #sidebar-content li a img {
@@ -91,7 +90,7 @@ body{
     color: black;
     border-radius: 10%;
     box-shadow: 0 2vw 5vw rgba(0, 0, 0, 0.1);
-
+    
 }
 
 .main {
@@ -146,7 +145,7 @@ body{
     font-size: 2rem;
     margin-top:5px;
     color:#fff
-
+    
 }
 .box h2{
     text-align: left;
@@ -161,14 +160,4 @@ body{
     margin-top:3rem;
     cursor: pointer;
     
-}
-/*
-.box button:hover{
-background:
-}*/
-.box{
-    font-size: 7rem;
-    float: right;
-    margin: -20px 20px 20px 0;
-
 }
