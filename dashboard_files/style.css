@@ -161,3 +161,33 @@ body{
     cursor: pointer;
     
 }
+#nav-icons{
+padding: 0;
+margin-left: 0.5vw;
+
+}
+
+.nav-icons ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.nav-icons ul li{
+    width: 5vw;
+    height: 2vh;
+    padding: 1vw;
+}
+
+#navbar{
+    background-color: red;
+    margin-bottom: 2vh;
+}
+.nav-ul ul{
+    margin-left: 30%;
+    display: flex;
+    padding: 0.5vw;
+    list-style: none;
+}
+.nav-ul ul li{
+    margin-right: 1vw;
+}
