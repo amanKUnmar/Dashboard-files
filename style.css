@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color:white;
+}
+#sidebar-content{
+    border-radius: 2vw;
+    position: absolute;
+    top: 35%
+}
+
+#sidebar-content li {
+    white-space: nowrap;
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+
+#sidebar-content li a img {
+    width: 6vh;
+    height: 6vh;
+    margin-bottom: 2vh;
+}
+
+#sidebar-content {
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    background-color: #0eb582;
+}
+
+#sidebar ul li {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-decoration: none;
+}
+
+#sidebar ul {
+    margin: 1vh;
+    padding: 1vw;
+}
+
+
+
+#announcement h1 {
+    margin: 14vh;
+    margin-top: 4vh;
+}
+
+.main {
+    margin-top: 5vh;
+    position: absolute;
+    top: 25%;
+    padding: 5vh;
+    width: 100%;
+}
+
+.main-top {
+    display: flex;
+    width: 100%;
+}
+
+#main-subjects {
+    grid-template-columns: auto auto auto auto auto;
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    overflow-y: hidden;
+    scrollbar-color: rebeccapurple;
+    scrollbar-width: thin;
+}
+
+
+.subjects {
+    display: grid;
+    padding: 3vw;
+    width: fit-content;
+    height: fit-content;
+    background-color: white;
+    color: black;
+    border-radius: 10%;
+    box-shadow: 0 2vw 5vw rgba(0, 0, 0, 0.1);
+    
+}
+
+.main {
+    margin-left: 10vh;
+    width: 89%;
+}
+
+.sub_image {
+    width: 10vh;
+    height: 10vh;
+}
+/*House*/
+.main-course{
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+.course-box{
+    width: 100%;
+    padding:10px;
+    margin-top: 10px;
+    background:#fff;
+    border-radius: 10px;
+    box-shadow:0 20px 35px rgba(0,0,0,0.1)
+}
+.course-box ul{
+    list-style: none;
+    display:flex
+}
+.course-box ul li{
+    margin:10px;
+    color:gray;
+    cursor: pointer;
+}
+.course-box ul .active{
+    color:#000;
+    border-bottom: 1px solid black;
+}
+.course-box .course{
+    display:flex;
+}
+.box{
+    display: inline-block;
+    width: 35%;
+    padding: 3vh;
+    margin: 3vh;
+    border-radius: 10px;
+    background: #0eb582;
+    box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+}
+.box p{
+    text-align: left;
+    font-size: 2rem;
+    margin-top:5px;
+    color:#fff
+    
+}
+.box h2{
+    text-align: left;
+    color:#fff
+}
+.box button{
+    background:#fff;
+    color: black;
+    padding:7px 10px;
+    border:none;
+    border-radius: 10px;
+    margin-top:3rem;
+    cursor: pointer;
+    
+}
+#nav-icons{
+padding: 0;
+margin-left: 0.5vw;
+
+}
+
+.nav-icons ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.nav-icons ul li{
+    width: 5vw;
+    height: 2vh;
+    padding: 1vw;
+}
+
+#navbar{
+    background-color: red;
+    margin-bottom: 2vh;
+}
+.nav-ul ul{
+    margin-left: 30%;
+    display: flex;
+    padding: 0.5vw;
+    list-style: none;
+}
+.nav-ul ul li{
+    margin-right: 1vw;
+}
